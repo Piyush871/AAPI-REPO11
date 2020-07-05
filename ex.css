@@ -1,0 +1,55 @@
+body{
+	background-color:white;
+}
+.Menu{ 
+color:white;
+border:3%;
+ width:100%;
+background-color:WHITE;
+ height:3%;
+ margin-bottom : 0.5%;
+ margin-top : 0.3%;
+}
+.Menu th {
+	padding: 0%;
+}
+.Menudata
+{
+	
+	width:12.5%;
+}
+ 
+#menu ul li
+{ position:relative;
+}
+#menu ul li a
+{
+text-decoration: none;
+display: block;
+}
+#menu ul li a:hover
+{
+background-color:green;
+}
+#menu ul ul
+{
+position:absolute;
+display: none;
+}
+/* varietis of item in second table after header */
+ #variaties{
+	position: absolute;
+	font-size: 30px;
+	background-color: black;
+} 
+/* hidden dropdown-content styling */
+#dropdown-content{
+	display: none;
+	position: absolute;	background-color: black;
+	
+}
+/* displaying dropdown when hover */
+.dropdown-menu:hover  #dropdown-content{
+	display: block ;
+
+}
